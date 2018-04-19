@@ -1,0 +1,99 @@
+
+body {
+	background: url(../media-folder/bigmount.jpeg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: rgba(248, 247, 216, 0.7);
+	font-family: Arial;
+	color: white;
+}
+p {
+    font-family: "Times New Roman", Lucida Console, serif;
+}
+ 
+.nav_bar ul {
+	margin: 0px;
+	padding: 0px;
+	list-style:none;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.nav_bar ul li {
+	display: inline;
+}
+.nav_bar ul li a {
+	text-decoration: none;
+	color: white;
+	padding: .2em 1em;
+}
+.nav_bar ul li a:hover {
+	background-color: green;
+}
+img {
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+}
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+ul li  {
+	
+	margin: 0px;
+	padding: 0px;
+	list-style: circle;
+}
+h1 {
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-right: 20px;
+   margin-left: 20px;
+   font-family: sans-serif;
+   text-transform: uppercase;
+   color: #000;
+   text-shadow:
+  -2px -2px 0 LightCyan,
+   2px -2px 0 LightCyan,
+  -2px 2px 0 LightCyan,
+   2px 2px 0 LightCyan;
+  
+}
+h3 {
+   color: LightCyan;
+   text-shadow:
+   2px -2px 0 black,
+   2px -2px 0 black,
+  -2px 2px 0 black,
+   2px 2px 0 black;
+}
+p {
+    
+    background-color: black;
+    opacity: .8;
+    
+}
+ul {
+    background-color: black;
+    opacity: .8;
+   }
+
+li:last-child {
+    border-bottom: none;
+}
+body {
+	background: url(../media-folder/bigmount.jpeg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Arial;
+	color: white;
+}	
+img {
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+}
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
