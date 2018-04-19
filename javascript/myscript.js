@@ -9,5 +9,3 @@
     map: map
   });
 }
-</script>
-<script async defer src=“”>https://maps.googleapis.com/maps/api/js?key=AIzaSyBRPLVq-1vIhtQtSXY2rac8322VmXK8J6Q&callback=initMap”></script>
