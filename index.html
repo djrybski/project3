@@ -38,6 +38,23 @@ Once I realized that I needed to come back to Chicago, I knew IIT was the best o
 I am working on a fishing App right now with another student I met here.
 I also fish the 31st Harbor every chance I get to sneak away between classes.
 	</p>
+<div>
+ <script>
+ function initMap() {
+  var location = {lat: 41.820579 , lng: -87.821949};
+  var map = new google.maps.Map(document.getElementById(“map”), { 
+    zoom: 4, 
+    center: location
+});
+}
+  var marker = new google.maps.Marker({
+    position: location,
+    map: map
+  });
+}
+</script>
+<script async defer src=“”>https://maps.googleapis.com/maps/api/js?key=AIzaSyBRPLVq-1vIhtQtSXY2rac8322VmXK8J6Q&callback=initMap”></script>
+</div>
 </section>
 <img src = "media-folder/fish5.jpg" alt = "picture of me fishing"/>
 </body>
