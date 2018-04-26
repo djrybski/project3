@@ -13,7 +13,7 @@ $(document).ready(function(){
     $('.slider').bxSlider({
       mode: 'fade',
       captions: true,
-      slideWidth: 1500,
+      slideWidth: 500,
         responsive: true
     });
   });
